@@ -1,0 +1,5 @@
+node_modules
+dist
+pdfs
+docxs
+.env
