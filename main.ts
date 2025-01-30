@@ -137,6 +137,12 @@ function renameFiles(
   const pdf = join(process.cwd(), 'document.pdf');
 
   try {
+    if (!fs.existsSync(docx)) {
+      throw new Error(
+        'Document not is not exists. Please make sure document.docx exists'
+      );
+    }
+
     const dirStorage = ['docxs', 'pdfs'];
 
     // Convert docx file to pdf
