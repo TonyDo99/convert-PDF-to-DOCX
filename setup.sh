@@ -13,5 +13,8 @@ npm install -g pnpm@latest-10
 # Verify npm version:
 # npm -v # Should print "10.9.2".
 
+# Install package dependencies
+pnpm install
+
 # Build ts to js version
 pnpm build
