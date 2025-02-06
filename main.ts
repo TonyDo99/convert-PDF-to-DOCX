@@ -154,6 +154,8 @@ function renameFiles(
     // Split pdf files by page
     await splitPdf(pdf, dirStorage[1]);
 
+    console.log('☕️ Convert file to single docx processing...');
+
     spawnSync('python3', ['convert-docx.py'], {
       cwd: '.',
     });
