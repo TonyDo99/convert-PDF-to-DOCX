@@ -5,7 +5,7 @@ https://products.aspose.app/words/splitter/docx
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file. These key should belong on 3rd party libraries `https://www.ilovepdf.com/`
+To run this project, you will need to add the following environment variables to your `.env` file. These key should belong on 3rd party libraries `https://www.ilovepdf.com/`
 
 `API_KEY`
 
@@ -23,7 +23,10 @@ sh setup.sh
 
 ## Usage
 
-Noted: The file docx will be the mail file for executing to other format, also it should be naming `document`. E.g. `document.docx`
+Noted:
+
+- The file docx will be the mail file for executing to other format, also it should be naming `document`. E.g. `document.docx`
+- Your system should have `OS Linux` or using `WSL` to run this script tool
 
 Run script to automatically convert docx to pdf files & docx files. The result will store attachments at pdfs & docx folders
 
