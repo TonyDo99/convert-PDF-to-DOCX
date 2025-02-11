@@ -33,3 +33,11 @@ Run script to automatically convert docx to pdf files & docx files. The result w
 ```bash
 sh script.sh
 ```
+
+Docker:
+
+1. docker pull ubuntu
+
+2. docker build -t vm-ubuntu .
+
+3. docker run -it --rm -v "$(pwd):/app" vm-ubuntu
